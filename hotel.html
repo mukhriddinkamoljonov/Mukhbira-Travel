@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-   <nav
+    <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
     >
@@ -75,6 +75,59 @@
               <a href="#" class="nav-link"><span>Qidirish</span></a>
             </li>
           </ul>
+          <div class="lngg">
+            <select
+              onChange="top.location.href=this.options[this.selectedIndex].value;"
+              class="selectpicker"
+              data-width="fit"
+              style="padding: 6px; border-radius: 10px; margin-left: 10px"
+            >
+              <a href="#uz">
+                <option
+                  value="http://putaksbocis.uz/"
+                  data-content='<span class="flag-icon flag-icon-uz"></span> Uzb'
+                >
+                  Uzb
+                </option>
+              </a>
+              <a href="#en">
+                <option
+                  value="https://mukhbiratravel-uz.translate.goog/?_x_tr_sch=http&_x_tr_sl=uz&_x_tr_tl=en&_x_tr_hl=ru&_x_tr_pto=wapp"
+                  data-content='<span class="flag-icon flag-icon-de"></span> Eng'
+                >
+                  Eng
+                </option>
+              </a>
+              <a href="#ru">
+                <option
+                  value="https://mukhbiratravel-uz.translate.goog/?_x_tr_sch=http&_x_tr_sl=ru&_x_tr_tl=uz&_x_tr_hl=ru&_x_tr_pto=wapp"
+                  data-content='<span class="flag-icon flag-icon-gb"></span> Rus'
+                >
+                  Rus
+                </option>
+              </a>
+            </select>
+          </div>
+          <!-- <select
+            class="selectpicker"
+            data-width="fit"
+            style="padding: 6px; border-radius: 10px; margin-left: 10px"
+          >
+            <option data-content='<img src="./assets/uzb.svg" alt="" /> uzb'>
+              Uzb
+            </option>
+            <option
+              data-content='<span class="flag-icon flag-icon-mx"></span> Eng'
+            >
+              <img src="assets/eng.svg" alt="" /> Eng
+            </option>
+            <option
+              data-content='<span class="flag-icon flag-icon-mx"></span> Rus'
+            >
+              <img src="assets/rus.svg" alt="" /> Rus
+            </option>
+          </select> -->
+          <!-- <img src="assets/rus.svg" alt="" /> -->
         </div>
       </div>
     </nav>
