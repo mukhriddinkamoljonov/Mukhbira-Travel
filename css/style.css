@@ -12627,3 +12627,15 @@ textarea.form-control {
 .fade.in {
   opacity: 1 !important;
 }
+
+
+.lang a {
+  margin-left: 5px;
+}
+
+.lang span {
+  color: #fff;
+}
+.lang img {
+  width: 25px;
+}
